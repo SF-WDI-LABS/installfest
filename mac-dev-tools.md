@@ -12,7 +12,9 @@ To check what version of OS X you're running:
 2. Select "About This Mac" from the dropdown menu.
 3. Read the version information from the window that pops up.
 
-If you are not using Mavericks (10.9) Yosemite (10.10) or El Capitan (10.11), detailed instructions for upgrading your operating system are available through Apple support: <a href="https://www.apple.com/support/osx/upgrade" target="_blank">How to upgrade to OS X Yosemite</a>.
+If you are not using Mavericks (10.9) Yosemite (10.10) or El Capitan (10.11), detailed instructions for upgrading your operating system are available through Apple support: <a href="https://www.apple.com/support/osx/upgrade" target="_blank">How to upgrade to OS X Yosemite</a>.  
+
+> Please let an instructor know _now_ if you're on an older version of OS X or if your system has less than 2 GB of memory.
 
 ### Install Command Line Tools from the Terminal
 
@@ -91,57 +93,29 @@ Configuring your git settings will help GitHub track your contributions and to m
 
 2. Generate a SSH key for GitHub by <a href="https://help.github.com/articles/generating-ssh-keys" target="_blank">following GitHub's instructions</a>. This will allow you to use GitHub from your Terminal without entering your login information every time you push.
 
-## Sublime Text
+## Atom text editor
 
-1. Use this link to <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203083.dmg" target="_blank">download Sublime Text 3</a>.
+1. Go <a href="https://atom.io/" target="_blank">here</a> and download Atom.
 2. Open the downloaded file.
-3. Follow the installation instructions (drag Sublime Text 3 to your Applications folder).
-4. Open the Sublime Text 3 application.
-
-### Add Package Control
-
-Sublime Text has its own package manager called Package Control. We'll use it to add extra features to Sublime Text, including a web development shortcut package called "Emmet" and a JavaScript syntax helper "jshint".
-
-1. Follow <a href="https://packagecontrol.io/installation" target="_blank">Package Control's "simple installation" instructions</a> to add Package Control to Sublime Text. When you paste the large block of text, make sure you:
-	* use the Sublime Text 3 version, and
-	* enter the text into the bottom rectangle of the Sublime Text console.
-2. We access Package Control through the Sublime Text command palette. Open the palette by pressing `cmd + shift + p` within Sublime Text. Start typing "Package Control" in the command palette to see the list of things Package Control can do.
+3. Follow the installation instructions.
+4. Open the Atom application.
 
 ### Add Packages
 
-1. Let's install our first package, Emmet. From the command palette (`cmd + shift + p`), select `Package Control: Install Package` to bring up the list of available packages.
-2. Select `Emmet` from the list, and Package Control will install it for you! (Start typing "Emmet" in the search bar to narrow down the list.)
+Let's install our first package, Emmet.  We can install Atom packages in the Atom settings menu, or via the command-line.  Since we're learning to be awesome developers now, let's use the command-line!  
 
-The other package we'll to add, `jshint`, requires Node.js, so we'll get to it in the next set of installation instructions.
+1. In your terminal run: `apm install emmet-simplified`
 
-### Open Sublime from the Terminal
+The other package we'll add, `jshint`, requires Node.js, so we'll get to it in the next set of installation instructions.
 
-Sublime Text 3 includes a program that launches Sublime from the Terminal. We'll use the `ln` command to link that program to a simple `subl` command.
-
-**Before following these steps**, make sure you downloaded Sublime Text 3, NOT Sublime Text 2. Also make sure you're running Sublime from your Applications folder NOT from the installer (go ahead and eject the installer if you haven't already).
-
-1. To run a program from the Terminal, it needs to be available on your $PATH. The next step assumes `/usr/local/bin` is in your $PATH, so let's check that.  Run the following command from the Terminal to see your current $PATH:
-
-	```bash
-	$ echo $PATH
-	```
-
-2. Run the following command in your Terminal to set up the link:
-
-	```bash
-	$ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
-	```
-
-3. Type `subl .` in the Terminal, and Sublime Text 3 should open!
-
-### Configure Git to Use Sublime
+### Configure Git to Use Atom
 
 When you forget to enter a commit message in the Terminal, git opens a text editor and reminds you to add a commit message.
 
-1. Run the following command in the Terminal to configure git to open Sublime Text instead of the default text editor:
+1. Run the following command in the Terminal to configure git to open Atom instead of the default text editor:
 
 	```bash
-	$ git config --global core.editor "subl -w"
+	$ git config --global core.editor "atom -w"
 	```
 
 
