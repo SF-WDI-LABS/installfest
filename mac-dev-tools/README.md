@@ -2,10 +2,7 @@
 
 ## Text Editor
 
-Our class will be using [Atom/Sublime](#TODO-PICK-ONE) as our preferred text editor. Please follow the installation instructions for:
-<!-- TODO: PICK ONE -->
-* [Atom](editor-atom.md)
-* [Sublime Text 3](editor-sublime-text-3.md)
+Our class will be using [Atom](editor-atom.md) as our preferred text editor. Please follow the installation instructions. 
 
 ## Browser
 Our class will be using Chrome as our preferred browser. If you don't already have it, please follow the installation instructions for:
