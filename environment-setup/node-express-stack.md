@@ -1,12 +1,11 @@
-# Installfest Step 2: Node.js & Express Stack
+# Installfest Step 1.1: Node.js & Express Stack
 
 Most of the coding work we do in weeks 3 to 5 will be driven by the back-end web development framework <a href="http://expressjs.com" target="_blank">Express</a>. We'll install Express individually in each project we create. For now, we'll install the other tools we'll use along with Express.
 
 #### Plan Overview
 
 1. Install Node.js, a platform for back-end web development with the JavaScript programming language.
-2. Install jshint and its Sublime Text packages to get realtime JavaScript syntax hints.
-3. Install MongoDB, the database we'll use with our Node.js and Express stack.
+1. Install MongoDB, the database we'll use with our Node.js and Express stack.
 
 ## Node.js
 
@@ -32,13 +31,6 @@ Nodemon (short for "node monitor") will make our Node.js workflow more efficient
   $  npm install -g nodemon
   ```
 
-### jshint
-
-It's time to install another Sublime Text package!  This one helps you spot errors in your javascript code.
-
-1. First we need to install the linter program, `jshint`. In the Terminal, run `npm install -g jshint` to install jshint globally.
-2. From the command palette in Sublime Text (`cmd + shift + p`), select `Package Control: Install Package` to bring up the list of available packages. Select `SublimeLinter` from the list, and Package Control will install it for you.
-3. Repeat the step above to install the package `SublimeLinter-jshint`.
 
 ## MongoDB
 
@@ -74,3 +66,15 @@ MonogDB is a database that stores information as easy to read "documents". We'll
   $ which mongod
   $ which mongo
   ```
+
+## RoboMongo
+
+RoboMongo is a GUI (Graphical User Interface) tool to let us see the data in our Mongo databases.  Let's install that now.
+
+1. Go to [https://robomongo.org/download](https://robomongo.org/download) and download the free (community) edition.
+2. Install it!
+
+## Next Up
+* [x] Setup your Node.js environment
+* [ ] [Setup your Ruby environment](ruby-on-rails-stack.md)
+* [ ] Install Development Tools

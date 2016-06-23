@@ -1,4 +1,4 @@
-# Installfest Step 3: Ruby on Rails Stack
+# Installfest Step 1.2: Ruby on Rails Stack
 
 #### Plan Overview
 
@@ -71,3 +71,16 @@ Ruby packages are referred to as "gems".
     ```bash
     $ which psql
     ```
+
+
+### Postico
+
+Postico is a GUI tool to view the contents of your Postgres database.  
+
+1. Go to [https://eggerapps.at/postico/](https://eggerapps.at/postico/) and download the free version.
+2. Install it by unzipping the downloaded zip and then dragging `Postico.app` into your `Applications` directory.
+
+## Next Up
+* [x] Setup your Node.js environment
+* [x] Setup your Ruby environment
+* [ ] [Install Development Tools](/mac-dev-tools)
