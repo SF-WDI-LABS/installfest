@@ -11,7 +11,7 @@ Our class will be using Chrome as our preferred browser. If you don't already ha
 
 We also recommend you install the following Chrome Extensions:
 
-* <a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank">JSON View</a>
+* <a href="https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en" target="_blank">JSON Viewer</a>
 * <a href="http://www.getpostman.com/" target="_blank">Postman</a>
 
 ## Window Manager
@@ -52,7 +52,4 @@ One of the best ways to learn keyboard shortcuts is to _STOP USING YOUR MOUSE_. 
 
 ![](https://m.popkey.co/80a186/wqdmb.gif)
 
-## That's it!
-![](http://i.giphy.com/3otPoS81loriI9sO8o.gif)
 
-Thanks for coming to InstallFest, and we're excited to see you next week! Feel free to stick around and finish up Fundamentals, or head out.

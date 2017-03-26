@@ -17,7 +17,7 @@ __Note:  when copying the code snippets, please exclude the `$` as you paste and
   $ brew install node
   ```
 
-2. Run the Terminal command `node -v` to check that Node.js was installed. It should print a version number greater than or equal to "v5.8.0". The Terminal command `node` changes your Terminal into a Javascript REPL ("Read Evaluate Print Loop"), like the right-hand side of repl.it. Use the shortcut `ctrl + c`, or type `.exit` to quit out of the REPL and return to the normal Terminal prompt.
+2. Run the Terminal command `node -v` to check that Node.js was installed. It should print a version number greater than or equal to "v6.8.0". The Terminal command `node` changes your Terminal into a Javascript REPL ("Read Evaluate Print Loop"), like the right-hand side of repl.it. Use the shortcut `ctrl + c`, or type `.exit` to quit out of the REPL and return to the normal Terminal prompt.
 
 2. Run the Terminal command `which npm` to check that NPM is installed. The Node Package Manager, used through various `npm` commands, is a lot like Homebrew, except we'll use it for Node.js-specific tools instead of for general Mac tools. NPM packages are often called "node modules."
 

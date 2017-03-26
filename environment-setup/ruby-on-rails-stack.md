@@ -18,7 +18,7 @@ If you are using an earlier version of RVM, Ruby or Rails, continue with the ins
 
 ## RVM and Ruby
 
-__Note:  when copying the code snippets, please exclude the `$` as you paste and run the code into your terminal.  The dollar sign `$` is simply an indicator of the logged-in user's terminal prompt in examples.__
+__Note:  when copying the code snippets, please exclude the `$` as you run the code into your terminal.  The dollar sign `$` is simply an indicator of the logged-in user's terminal prompt in examples.__
 
 <a href="http://www.rvm.io" target="_blank">RVM</a> is a Ruby Version Manager. It lets you easily switch between versions of the Ruby programming language for different projects.
 
